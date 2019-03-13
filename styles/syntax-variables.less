@@ -1,0 +1,43 @@
+@import "colors";
+
+// This defines all syntax variables that syntax themes must implement when they
+// include a syntax-variables.less file.
+
+// General colors
+@syntax-accent-color: @vivea-white;
+@syntax-text-color: @vivea-light;
+@syntax-cursor-color: @vivea-pink;
+@syntax-selection-color: @vivea-black;
+@syntax-background-color: @vivea-darker;
+
+// For code
+@syntax-variable-color: @vivea-white;
+@syntax-function-color: @vivea-light;
+@syntax-control-color: @vivea-lightest;
+@syntax-property-color: @vivea-white;
+@syntax-property-value-color: @vivea-lighter;
+@syntax-constant-color: @vivea-pink;
+@syntax-punctuation-color: @vivea-pink;
+@syntax-comment-color: darken(@vivea-white, 20%);
+@syntax-embedded-color: @vivea-dark;
+
+// Guide colors
+@syntax-wrap-guide-color: @vivea-dark;
+@syntax-indent-guide-color: @vivea-dark;
+@syntax-invisible-character-color: @vivea-dark;
+
+// For find and replace markers
+@syntax-result-marker-color: @vivea-dark;
+@syntax-result-marker-color-selected: @syntax-text-color;
+
+// Gutter colors
+@syntax-gutter-text-color: @vivea-white;
+@syntax-gutter-text-color-selected: @vivea-lightest;
+@syntax-gutter-background-color: @vivea-darker;
+@syntax-gutter-background-color-selected: @vivea-dark;
+
+// For git diff info. i.e. in the gutter
+@syntax-color-renamed: @blue;
+@syntax-color-added: @green;
+@syntax-color-modified: @orange;
+@syntax-color-removed: @red;
