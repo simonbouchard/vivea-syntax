@@ -2,4 +2,4 @@
 
 My personal Atom dark syntax theme.
 
-![A screenshot](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
+![A screenshot](https://raw.githubusercontent.com/simonbouchard/vivea-syntax/master/screenshot.png)
